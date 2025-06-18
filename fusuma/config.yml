@@ -1,0 +1,14 @@
+#Trackpad gestures for volume up and volume down
+
+swipe:
+  4:
+    up:
+      command: "pamixer --increase 1"
+      threshold: 0.15
+      interval: 0.015
+      acceleration: 1.1
+    down:
+      command: "pamixer --decrease 1"
+      threshold: 0.15
+      interval: 0.015
+      acceleration: 1.1
